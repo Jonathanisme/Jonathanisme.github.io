@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,21 +20,92 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
 </head>
+
 <body>
     <div class="container">
         <div>
-            <h1>Base Collapsible<h1>
-            
-            <button class="btn btn-primary" 
-            data-target="#demo"
-            data-toggle="collapse"
-            >Click Me</button>
+            <h1>Base Collapsible
+                <h1>
 
-            <div id="demo" class="collapse">
-                Adipisicing ex exercitation do sunt duis ipsum qui elit eu proident mollit. Tempor duis in aute sunt culpa consequat qui labore tempor excepteur. Incididunt Lorem pariatur eiusmod irure reprehenderit. Laborum proident est commodo deserunt incididunt nostrud esse ex nulla nostrud nisi. Incididunt ad ipsum ipsum aute nisi elit ex laboris incididunt aute.
+                    <button class="btn btn-primary" data-target="#demo" data-toggle="collapse">Click Me</button>
+
+                    <div id="demo" class="collapse">
+                        Adipisicing ex exercitation do sunt duis ipsum qui elit eu proident mollit. Tempor duis in aute sunt culpa consequat qui
+                        labore tempor excepteur. Incididunt Lorem pariatur eiusmod irure reprehenderit. Laborum proident
+                        est commodo deserunt incididunt nostrud esse ex nulla nostrud nisi. Incididunt ad ipsum ipsum aute
+                        nisi elit ex laboris incididunt aute.
+                    </div>
+        </div>
+
+
+        <div>
+            <div class="alert alert-success alert-dismissable">
+                <button type="button" class="close" data-dismiss="alert">
+                    &times;
+                </button>
+                Hello
+            </div>
+
+            <div id="accordian">
+                <h1>Accordion</h1>
+
+                <div class="card">
+                    <a class="card-link" data-toggle="collapse" data-target="#collapseOne">
+                        <div class="card-header">Group Item 1</div>
+                    </a>
+                </div>
+                <div id="collapseOne" class="collapse" data-parent="#accordian">
+                    <div class="card-body">
+                        Consequat eu sit exercitation consequat veniam.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="accordian">
+
+            <div class="card">
+                <a class="card-link" data-toggle="collapse" data-target="#collapseTwo">
+                    <div class="card-header"> Group Item 1
+                    </div>
+                </a>
+
+                <div id="collapseTwo" class="collapse" data-parent="#accordian">
+                    <div class="card-body">
+                        Consequat eu sit exercitation consequat veniam.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="accordian">
+
+            <div class="card">
+                <a class="card-link" data-toggle="collapse" data-target="#collapseThree">
+                    <div class="card-header">Group Item 1</div>
+                </a>
+                <div id="collapseThree" class="collapse" data-parent="#accordian">
+                    <div class="card-body">
+                        Consequat eu sit exercitation consequat veniam.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="accordian">
+
+            <div class="card">
+                <a class="card-link" data-toggle="collapse" data-target="#collapseFour">
+                    <div class="card-header">Group Item 1</div>
+                </a>
+                <div id="collapseFour" class="collapse" data-parent="#accordian">
+                    <div class="card-body">
+                        Consequat eu sit exercitation consequat veniam.
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    
 </body>
+
 </html>
